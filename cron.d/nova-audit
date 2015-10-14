@@ -1,0 +1,1 @@
+30 * * * * root (/usr/bin/python -u /usr/bin/instance-usage-audit --config-file=/etc/nova/nova_silent.conf 1>> /var/log/nova/instance_audit_cron.log 2>&1)

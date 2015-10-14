@@ -1,0 +1,1 @@
+30 * * * * root (/usr/bin/python -u /usr/bin/cinder-volume-usage-audit --config-file=/etc/cinder/cinder_silent.conf 1>> /var/log/cinder/cinder_audit_cron.log 2>&1)
